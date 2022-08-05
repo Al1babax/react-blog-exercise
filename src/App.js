@@ -8,6 +8,7 @@ function App() {
     <div className='bg-slate-200 w-full h-full'>
       <Nav />
       <Layout
+        key={dataArray.id}
         {...dataArray}
       />
     </div>

@@ -1,5 +1,4 @@
 export default function Card(props) {
-    console.log(props)
     let imgPath = "./images/" + props.picture
 
     return (
